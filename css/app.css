@@ -57,6 +57,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
 }
 
 .section img {
@@ -70,15 +71,39 @@ html, body {
 }
 
 
-.text-link {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+@media screen and (min-width: 320px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .section img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section div {
+        width: 45%;
+        line-height: 1px;
+    }
 }
 
 
-.text-link div {
-    text-align: center;
-}
+@media screen and (min-width: 1024px) {
+    .section {
+        display: flex;
+        justify-content: space-around;
+    }
 
+    .section div {
+        padding: 2px;
+        line-height: 1px;
+    }
+}
