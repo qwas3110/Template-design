@@ -96,7 +96,7 @@ html, body {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .section {
         display: flex;
         justify-content: space-around;
@@ -107,3 +107,11 @@ html, body {
         line-height: 1px;
     }
 }
+
+
+@media screen and (min-width: 1025px){
+    .section div {
+        width: 33%;
+    }
+}
+
