@@ -20,6 +20,10 @@ html, body {
     text-align: right;
 }
 
+.header-text h1, h4 {
+    color: #566586a3;
+}
+
 .logo {
     text-align: left;
 }
@@ -61,4 +65,20 @@ html, body {
 }
 
 
+.featured {
+    color: #566586a3;
+}
+
+
+.text-link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.text-link div {
+    text-align: center;
+}
 
